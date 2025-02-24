@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@tanstack/router-plugin": "^1.111.3",
+    "@types/http-link-header": "^1.0.7",
     "@types/node": "^22.13.5",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
@@ -23,15 +24,16 @@
     "@emotion/styled": "^11.14.0",
     "@fontsource/roboto": "^5.1.1",
     "@hookform/resolvers": "^4.1.1",
+    "@mui/icons-material": "^6.4.5",
     "@mui/material": "^6.4.5",
     "@tanstack/react-query": "^5.66.9",
     "@tanstack/react-query-devtools": "^5.66.9",
     "@tanstack/react-router": "^1.111.3",
-    "@tanstack/react-virtual": "^3.13.0",
     "@tanstack/router-devtools": "^1.111.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",
+    "react-hot-toast": "^2.5.2",
     "yup": "^1.6.1"
   }
 }
