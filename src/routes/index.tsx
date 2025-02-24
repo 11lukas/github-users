@@ -1,13 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { Suspense } from 'react'
 
 export const Route = createFileRoute('/')({
-  component: Home,
+  component: Index,
 })
 
-function Home() {
+function Index() {
   return (
-    <div >
+    <Suspense >
       <p>GitHub Users</p>
-    </div>
+    </Suspense>
   )
 }

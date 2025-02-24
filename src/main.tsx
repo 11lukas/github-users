@@ -11,6 +11,7 @@ import '@fontsource/roboto/700.css';
 const router = createRouter({
   routeTree,
   defaultPreload: 'intent',
+  basepath: '/github-users/'
 })
 
 // Register things for typesafety
